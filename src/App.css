@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+button {
+  font-size: 5em;
+  border: 1;
+  padding: 0;
+  cursor: pointer;
+}
+
+button.coral{
+  background-color: lightcoral;
+}
+
+button.plum{
+  background-color: plum;
+}
+
+button.yellow{
+  background-color:lightgoldenrodyellow;
+}
+button.sky{
+  background-color: lightskyblue;
+}
+
+ ul {
+   display: flex;
+   padding: 0;
+ }
+ li {
+   list-style: none;
+   margin: 0 20px;
+   padding: 0;
+ }
